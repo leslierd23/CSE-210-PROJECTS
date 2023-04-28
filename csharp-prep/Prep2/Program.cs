@@ -1,9 +1,11 @@
 using System;
 
-class Program
+internal class NewBaseType
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep2 World!");
+        Console.Write("What is the magic number? ");
+        Console.Write("What is your guess? ");
     }
 }
+
