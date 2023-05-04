@@ -95,6 +95,45 @@
         },
 
         {
+            "name": "job.cs",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-prepare-Learning02",
+            "program": "${workspaceFolder}/prepare/Learning02/bin/Debug/net7.0/Learning02.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/prepare/Learning02",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
+            "name": "program.cs",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-prepare-Learning02",
+            "program": "${workspaceFolder}/prepare/Learning02/bin/Debug/net7.0/Learning02.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/prepare/Learning02",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+        
+        {
+            "name": "Resume.cs",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-prepare-Learning02",
+            "program": "${workspaceFolder}/prepare/Learning02/bin/Debug/net7.0/Learning02.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/prepare/Learning02",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopAtEntry": false
+        },
+
+        {
             "name": "Learning 03 (Fraction)",
             "type": "coreclr",
             "request": "launch",
